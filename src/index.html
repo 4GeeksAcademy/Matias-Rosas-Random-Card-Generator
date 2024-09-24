@@ -13,13 +13,21 @@
     <link rel="stylesheet" href="src/style.css" />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
-    <div id="divgrande" class="row">
-      <div id="columnablankizq" class="col-2"></div>
-      <div class="card col-6">
-        <div class="heart">♦</div>
+  <body class="position-relative bg-success vh-100">
+    <div class="card position-absolute">
+      <div id="cornerdivtop" class="corner top text-center">
+        <span id="cornerspantop">♥</span>
       </div>
-      <div id="columnablankder" class="col-2"></div>
+
+      <div class="middle position-absolute top-50 start-50 translate-middle">
+        <span id="midspannumber">3</span>
+      </div>
+      <div
+        id="cornerdivbot"
+        class="corner bottom text-center position-absolute"
+      >
+        <span id="cornerspanbot">♥</span>
+      </div>
     </div>
   </body>
 </html>
