@@ -14,7 +14,18 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body class="position-relative bg-success vh-100">
-    <div class="card position-absolute">
+    <!-- Inputs para el ancho y alto de la carta -->
+    <div class="inputs-container position-absolute inputforms">
+      <label class="fw-bolder text-light" for="cardWidth">Ancho:</label>
+      <input type="number" id="cardWidth" placeholder="300" />
+      <label for="cardHeight">Alto:</label>
+      <input type="number" id="cardHeight" placeholder="400" />
+      <button id="applySize" class="btn buttonpurple ms-1">
+        Aplicar tamaño
+      </button>
+    </div>
+
+    <div id="naipe" class="card position-absolute">
       <div id="cornerdivtop" class="corner top text-center">
         <span id="cornerspantop">♥</span>
       </div>
@@ -29,5 +40,12 @@
         <span id="cornerspanbot">♥</span>
       </div>
     </div>
+    <!-- Botón debajo de la carta -->
+    <button id="btngencard" class="btn btn-dark position-absolute button">
+      Generate Random Car
+    </button>
+    <button id="flipcard" class="btn btn-danger position-absolute buttonflip">
+      Flip the Card!
+    </button>
   </body>
 </html>
