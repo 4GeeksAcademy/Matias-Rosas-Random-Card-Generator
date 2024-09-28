@@ -10,7 +10,7 @@ body {
   height: 400px;
   background-color: white;
   border-radius: 10px;
-  top: 40px;
+  top: 75px;
   left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -43,13 +43,13 @@ body {
 }
 
 .button {
-  top: 430px;
+  top: 465px;
   left: 70px;
   margin-top: 30px;
 }
 
 .buttonflip {
-  top: 475px;
+  top: 510px;
   left: 99px;
   margin-top: 30px;
 }
@@ -62,8 +62,9 @@ body {
 .inputforms {
   top: 5px;
   left: 20px;
-  background-color: rgba(80, 201, 80, 0.295);
+  /* background-color: rgba(80, 201, 80, 0.295); */
   padding-left: 5px;
+  /* box-shadow: 50%; */
 }
 
 .buttonpurple {
